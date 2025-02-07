@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG Stage Zero Profile Card</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="zero.css">    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" type="text/css"></script>
+</head>
+<body>
+    <div class="card">
+        <img src="./img/header-profile.jpg" alt="John" style="width:100%" data-testid="profilePicture">
+      <div>
+        <h1 data-testid="fullName">Olamide Afonja</h1>
+        <p class="title" data-testid="jobTitle">Digital Marketer & IT Support</p>
+        <p>Terra Synergy Ltd</p>
+        </div>
+        <div class="contact-bio">
+          <p class="bio" data-testid="shortBio"><blockquote><q>A polymath and creative, vested in the way of all arts.</q></blockquote></p>
+        <a href="https://www.instagram.com/polymathmuse/"><i class="fab fa-instagram" data-testid="socialLinks"></i></a>
+        <a href="https://x.com/olamide_afonjaA"><i class="fab fa-twitter" data-testid="socialLinks"></i></a>
+        <a href="https://www.linkedin.com/in/olamide-afonja-8a780822a/"><i class="fab fa-linkedin" data-testid="socialLinks"></i></a>
+          <p class="title email" data-testid="emailAddress">adeolamideafonja@gmail.com</p>
+      </div>
+      <div>
+      <div>
+        <p class="title" data-testid="currentLocation">
+    <pre>
+      CURRENT LOCATION: 
+      <button class="location-current">Gbagada</button>
+    </pre>
+    <address>
+        <pre>
+          100235, 
+          Atunrase Estate, 
+          Gbagada, 
+          Lagos.
+        </pre>
+        </address>
+    </div>
+        <p><button><span id="datetime" data-testid="currentTimeUTC"></span>
+        </button></p>
+      </div>
+      </div>
+      <script src="./zero.js"></script>
+    
+</body>
+</html>
